@@ -1,0 +1,108 @@
+.card {
+    background-image: url(https://imdb-api.com/img/header.jpg);
+    visibility: visible;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item-film:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.item-film:hover {
+    background-color: rgba(0, 0, 0, .05);
+    transition: all 0.2s;
+}
+
+.btn-rectangle {
+    width: 304px !important;
+    height: 146px !important;
+}
+
+.btn-square {
+    width: 146px !important;
+    height: 146px !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-pink {
+    background-color: #ec407a !important;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #2bbbad !important;
+}
+
+.disabled {
+    opacity: 0.65;
+}
+
+.disabled-card {
+    opacity: 0.5;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.country-rate {
+    background-color: silver;
+}
+
+li:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300!important;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.list-creators:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.list-item-fullcast {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.list-item-name:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+img:hover {
+    transform: scale(1.15);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.poster {
+    overflow: hidden;
+}
+
+.status-none {
+    display: none;
+}
+
+.dropdown-title {
+    display: block;
+}
